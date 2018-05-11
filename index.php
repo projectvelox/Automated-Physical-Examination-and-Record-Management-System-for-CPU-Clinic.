@@ -34,21 +34,8 @@
 			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 		</ol>
 		<div class="carousel-inner" role="listbox">
-			<div class="carousel-item active">
-				<div class="slide">
-					<video playsinline autoplay muted loop preload id="bgvid">
-						<source src="assets/images/slider/5.mp4" type="video/mp4">
-						</video>
-						<div class="carousel-caption">
-							<div>
-								<h1>Kation Technologies Inc.</h1>
-								<p>Kation Technologies brings together tools to increase productivity in order to bring your business to a different level of enterprise efficiency</p>
-							</div>
-						</div>
-					</div>
-				</div>
 				<div class="carousel-item">
-					<div class="slide" data-background-image="assets/images/slider/2.jpg">
+					<div class="slide" data-background-image="images/slider/2.jpg">
 						<div class="carousel-caption">
 							<div>
 								<h1>Kation Technologies Inc.</h1>
@@ -58,7 +45,7 @@
 					</div>
 				</div>
 				<div class="carousel-item">
-					<div class="slide" data-background-image="assets/images/slider/3.jpg">
+					<div class="slide" data-background-image="images/slider/3.jpg">
 						<div class="carousel-caption">
 							<div>
 								<h1>Kation Technologies Inc.</h1>
