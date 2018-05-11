@@ -8,11 +8,13 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/carousel.js"></script>
+	<script type="text/javascript" src="js/preloader.js"></script>
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="icon" href="images/logo/logo.png" type="image/png">
 </head>
 <body>
-	<nav class="navbar navbar-expand-md navbar-dark sticky-top blue-grey darken-4">
+	<nav class="navbar navbar-expand-md navbar-dark sticky-top blue-grey darken-4" style="margin-bottom: -66px;">
 		<a class="navbar-brand" href="#"><img src="images/logo/nav-header.png" class="img-fluid" style="height: 40px"></a>
 		<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -34,12 +36,22 @@
 				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 			</ol>
 			<div class="carousel-inner" role="listbox">
+				<div class="carousel-item active">
+					<div class="slide" data-background-image="images/slider/1.jpg">
+						<div class="carousel-caption">
+							<div>
+								<h1>APE & RMS for CPU Clinic</h1>
+								<p>Automated Physical Examination and Record Management System for CPU Clinic</p>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="carousel-item">
 					<div class="slide" data-background-image="images/slider/2.jpg">
 						<div class="carousel-caption">
 							<div>
-								<h1>Kation Technologies Inc.</h1>
-								<p>Kation Technologies brings together the Digital World + Physical World in order to enhance your customer’s experience</p>
+								<h1>APE & RMS for CPU Clinic</h1>
+								<p>Automated Physical Examination and Record Management System for CPU Clinic</p>
 							</div>
 						</div>
 					</div>
@@ -48,8 +60,8 @@
 					<div class="slide" data-background-image="images/slider/3.jpg">
 						<div class="carousel-caption">
 							<div>
-								<h1>Kation Technologies Inc.</h1>
-								<p>Kation Technologies brings together your organization + Kation in order to unlock value in your business</p>
+								<h1>APE &  for CPU Clinic</h1>
+								<p>Automated Physical Examination and Record Management System for CPU Clinic</p>
 							</div>
 						</div>
 					</div>
@@ -63,6 +75,9 @@
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				<span class="sr-only">Next</span>
 			</a>
+		</div>
+		<div class="jumbotron">
+			asd
 		</div>
 	</main>
 </body>
