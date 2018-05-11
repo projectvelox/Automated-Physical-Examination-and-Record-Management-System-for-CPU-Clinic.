@@ -37,6 +37,19 @@
 			</ol>
 			<div class="carousel-inner" role="listbox">
 				<div class="carousel-item active">
+					<div class="slide">
+						<video playsinline autoplay muted loop preload id="bgvid">
+							<source src="images/slider/4.mp4" type="video/mp4">
+						</video>
+						<div class="carousel-caption">
+							<div>
+								<h1>APE & RMS for CPU Clinic</h1>
+								<p>Automated Physical Examination and Record Management System for CPU Clinic</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
 					<div class="slide" data-background-image="images/slider/1.jpg">
 						<div class="carousel-caption">
 							<div>
@@ -60,7 +73,7 @@
 					<div class="slide" data-background-image="images/slider/3.jpg">
 						<div class="carousel-caption">
 							<div>
-								<h1>APE &  for CPU Clinic</h1>
+								<h1>APE & RMS for CPU Clinic</h1>
 								<p>Automated Physical Examination and Record Management System for CPU Clinic</p>
 							</div>
 						</div>
@@ -77,7 +90,11 @@
 			</a>
 		</div>
 		<div class="jumbotron">
-			asd
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+					<h1>Central Philippine University</h1>
+				</div>
+			</div>
 		</div>
 	</main>
 </body>
