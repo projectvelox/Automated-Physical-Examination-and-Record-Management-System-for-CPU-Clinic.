@@ -91,8 +91,9 @@
 		</div>
 		<div class="jumbotron">
 			<div class="row">
-				<div class="col-xs-12 col-md-6">
-					<h1>Central Philippine University</h1>
+				<div class="col-xs-12 col-md-8">
+					<h3>Central Philippine University</h3>
+					<p>Central Philippine University (also referred to as Central or CPU) is a private research university in Iloilo City, Philippines. Established in 1905 through a grant given by the American business magnate, industrialist and philanthropist John D. Rockefeller under the auspices of the American Baptist Foreign Mission Society, it is the first Baptist founded and second American university in the Philippines and Asia (after Silliman University (1901) in Dumaguete). It initially consisted of two separate schools: the Jaro Industrial School for boys and the Baptist Missionary Training School that trains ministers and other Christian workers.</p>
 				</div>
 			</div>
 		</div>
