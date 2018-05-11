@@ -1,0 +1,10 @@
+@function appGetColor($color, $type) {
+	@if map-has-key($color-palette, $color) {
+		$curr_color: map-get($color-palette, $color);
+		@if map-has-key($curr_color, $type) {
+			@return map-get($curr_color, $type);
+		}
+	}
+	@warn "Unknown `#{$color}` - `#{$type}` in $colors.";
+	@return null;
+}
